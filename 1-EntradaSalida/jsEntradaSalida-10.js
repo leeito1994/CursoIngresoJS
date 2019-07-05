@@ -9,17 +9,18 @@ function mostrarAumento()
 
     var numero2;
 
-    var operador1;
-
     numero1 = document.getElementById("importe").value;
 
-    operador1 = parseInt(numero1, 10);
+    numero1 = parseInt(numero1);
 
-    numero2 = operador1 / 0.25 + operador1
+    numero2 = numero1 * 0.75
 
     document.getElementById("resultado").value = numero2;
 
-
+// NaN = Not a Number
+// Undefined = no tienen valor
+// Null = ID incorrecta, se anula el proceso.
+// 1.X para sumar % ; 0.Resto de X a 100 para descontar %
 
 
 

@@ -3,28 +3,26 @@ transformarlos a enteros (parseInt),realizar la operación correcta y
 mostrar el resulto por medio de "ALERT"
 ej.: "la Resta es 750"*/ 
 
-var numero1;
 
-var numero2;
 
-var operador1;
-
-var operador2;
 
 function sumar()
 {	
+    var numero1;
+
+    var numero2;
     
     var resultadosuma;
 
     numero1 = document.getElementById("numeroUno").value;
 
-numero2 = document.getElementById("numeroDos").value;
+    numero2 = document.getElementById("numeroDos").value;
 
-operador1 = parseInt(numero1, 10);
+    numero1 = parseInt(numero1);
 
-operador2 = parseInt(numero2, 10);
+    numero2 = parseInt(numero2);
 
-    resultadosuma = operador1 + operador2;
+    resultadosuma = numero1 + numero2;
 
     alert("El resultado de la suma es " + resultadosuma);
 
@@ -35,19 +33,21 @@ operador2 = parseInt(numero2, 10);
 
 function restar()
 {
-    
+    var numero1;
+
+    var numero2;
     
     var resultadoresta;
 
     numero1 = document.getElementById("numeroUno").value;
 
-numero2 = document.getElementById("numeroDos").value;
+    numero2 = document.getElementById("numeroDos").value;
 
-operador1 = parseInt(numero1, 10);
+    numero1 = parseInt(numero1);
 
-operador2 = parseInt(numero2, 10);
+    numero2 = parseInt(numero2);
 
-    resultadoresta = operador1 - operador2;
+    resultadoresta = numero1 - numero2;
 
     alert("El resultado de la resta es " + resultadoresta);
 
@@ -59,36 +59,43 @@ operador2 = parseInt(numero2, 10);
 
 function multiplicar()
 {  
+    var numero1;
+
+    var numero2;
 
     var resultadomult;
     
     numero1 = document.getElementById("numeroUno").value;
 
-numero2 = document.getElementById("numeroDos").value;
+    numero2 = document.getElementById("numeroDos").value;
 
-operador1 = parseInt(numero1, 10);
+    numero1 = parseInt(numero1);
 
-operador2 = parseInt(numero2, 10);
+    numero2 = parseInt(numero2);
 
-    resultadomult = operador1 * operador2;
+    resultadomult = numero1 * numero2;
 
     alert("El resultado de la multiplicación es " + resultadomult);
 }
 
 function dividir()
 {
-    
+
+    var numero1;
+
+    var numero2;
+
     var resultadodiv;
 
     numero1 = document.getElementById("numeroUno").value;
 
-numero2 = document.getElementById("numeroDos").value;
+    numero2 = document.getElementById("numeroDos").value;
 
-operador1 = parseInt(numero1, 10);
+    numero1 = parseInt(numero1);
 
-operador2 = parseInt(numero2, 10);
+    numero2 = parseInt(numero2);
 
-    resultadodiv = operador1 / operador2;
+    resultadodiv = numero1 / numero2;
 
     alert("El resultado de la división es " + resultadodiv);
 

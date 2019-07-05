@@ -8,23 +8,19 @@ function sumar()
 
     var numero2;
 
-    var resultado;
-
-    var suma1;
-
-    var suma2;
+    var resultadosuma;
 
     numero1 = document.getElementById("numeroUno").value;
 
     numero2 = document.getElementById("numeroDos").value;
 
-    suma1 = parseInt(numero1, 10);
+    numero1 = parseInt(numero1);
 
-    suma2 = parseInt(numero2, 10);
+    numero2 = parseInt(numero2);
 
-    resultado = suma1 + suma2
+    resultadosuma = numero1 + numero2
 
-    alert("El resultado de la suma es " + resultado);
+    alert("El resultado de la suma es " + resultadosuma);
 
 }
 
